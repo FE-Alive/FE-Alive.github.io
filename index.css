@@ -1,0 +1,31 @@
+@charset "utf-8";
+/**
+* Description: style
+* Developers: lizhipower <lizhipower@gmail.com>
+**/
+/*RESET*/
+body, dl, dd, h1, h2, h3, h4, h5, h6, p, form,ul,li{margin:0;}
+ul { padding:0;}
+ol,li{margin:0; padding:0;}
+table { border-collapse: collapse; border-spacing: 0 }
+fieldset, img { border: 0 }
+address, caption, cite, code, dfn, em, strong, th, var { font-style: normal; font-weight: normal }
+ol, ul { list-style: none }
+del, ins { text-decoration: none }
+caption, th { text-align: left }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal }
+input, button, textarea, select { font-size: 100% ; outline: 0 }
+q:before, q:after { content: '' }
+addr, acronym { border: 0; font-variant: normal }
+sub, sup { font-size: 75%; line-height: 0; position: relative; }
+sub { top: -0.5em; }
+sup { bottom: -0.25em; }
+/*CLEARFIX*/
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.clearfix { display: inline-block; }
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+/*INTRO*/
+.intro { float: left; width: 200px; height: 600px; position: relative; overflow: hidden; cursor: pointer}
+.intro { background-color: red; border: solid black}
